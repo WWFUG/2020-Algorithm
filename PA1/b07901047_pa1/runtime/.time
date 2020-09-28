@@ -1,0 +1,91 @@
+inputs/1000000.case1
+usage: NTU_sort -[IS|MS|QS|HS] <input_file> <output_file>
+options:
+   IS - Insersion Sort
+   MS - Merge Sort
+   QS - Quick Sort
+   HS - Heap Sort
+inputs/1000000.case2
+usage: NTU_sort -[IS|MS|QS|HS] <input_file> <output_file>
+options:
+   IS - Insersion Sort
+   MS - Merge Sort
+   QS - Quick Sort
+   HS - Heap Sort
+inputs/1000000.case3
+usage: NTU_sort -[IS|MS|QS|HS] <input_file> <output_file>
+options:
+   IS - Insersion Sort
+   MS - Merge Sort
+   QS - Quick Sort
+   HS - Heap Sort
+inputs/16000.case1
+usage: NTU_sort -[IS|MS|QS|HS] <input_file> <output_file>
+options:
+   IS - Insersion Sort
+   MS - Merge Sort
+   QS - Quick Sort
+   HS - Heap Sort
+inputs/16000.case2
+usage: NTU_sort -[IS|MS|QS|HS] <input_file> <output_file>
+options:
+   IS - Insersion Sort
+   MS - Merge Sort
+   QS - Quick Sort
+   HS - Heap Sort
+inputs/16000.case3
+usage: NTU_sort -[IS|MS|QS|HS] <input_file> <output_file>
+options:
+   IS - Insersion Sort
+   MS - Merge Sort
+   QS - Quick Sort
+   HS - Heap Sort
+inputs/32000.case1
+usage: NTU_sort -[IS|MS|QS|HS] <input_file> <output_file>
+options:
+   IS - Insersion Sort
+   MS - Merge Sort
+   QS - Quick Sort
+   HS - Heap Sort
+inputs/32000.case2
+usage: NTU_sort -[IS|MS|QS|HS] <input_file> <output_file>
+options:
+   IS - Insersion Sort
+   MS - Merge Sort
+   QS - Quick Sort
+   HS - Heap Sort
+inputs/32000.case3
+usage: NTU_sort -[IS|MS|QS|HS] <input_file> <output_file>
+options:
+   IS - Insersion Sort
+   MS - Merge Sort
+   QS - Quick Sort
+   HS - Heap Sort
+inputs/4000.case1
+usage: NTU_sort -[IS|MS|QS|HS] <input_file> <output_file>
+options:
+   IS - Insersion Sort
+   MS - Merge Sort
+   QS - Quick Sort
+   HS - Heap Sort
+inputs/4000.case2
+usage: NTU_sort -[IS|MS|QS|HS] <input_file> <output_file>
+options:
+   IS - Insersion Sort
+   MS - Merge Sort
+   QS - Quick Sort
+   HS - Heap Sort
+inputs/4000.case3
+usage: NTU_sort -[IS|MS|QS|HS] <input_file> <output_file>
+options:
+   IS - Insersion Sort
+   MS - Merge Sort
+   QS - Quick Sort
+   HS - Heap Sort
+inputs/5.case1
+usage: NTU_sort -[IS|MS|QS|HS] <input_file> <output_file>
+options:
+   IS - Insersion Sort
+   MS - Merge Sort
+   QS - Quick Sort
+   HS - Heap Sort

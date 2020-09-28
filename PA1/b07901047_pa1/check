@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# Usage
+# To generate ouput file and use PA1_Result_Checker 
+# to check the result
+# ./check NTU_sort [IS|MS|QS|HS]
+
+INPUTDIR="inputs/"
+OUTPUTDIR="outputs/"
+DATADIR="runtime/$2.time"
+
+if [ -f $DATADIR ]; then
+    echo "Removing $DATADIR ..."
+    rm $DATADIR
+fi
+
+touch $DATADIR
+
+# generating ouput files
+for input in $INPUTDIR*.in ; do
+    echo "Checking file $input ..."
+    echo "${input%.in}" >> $DATADIR
+    foo=${input#"$INPUTDIR"}
+    foo=${foo%".in"}
+    bin/NTU_sort -$2 $input "$OUTPUTDIR$foo.out" >> $DATADIR
+    echo "Writing output file ${input%.in}.out ..."
+
+    utility/PA1_Result_Checker $input "$OUTPUTDIR$foo.out"
+    echo 
+done;
+
+
+
