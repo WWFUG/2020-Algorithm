@@ -1,0 +1,39 @@
+inputs/1000000.case1
+The total CPU time: 68.801ms
+memory: 19456KB
+inputs/1000000.case2
+The total CPU time: 322399ms
+memory: 46908KB
+inputs/1000000.case3
+The total CPU time: 317042ms
+memory: 35436KB
+inputs/16000.case1
+The total CPU time: 1.094ms
+memory: 13432KB
+inputs/16000.case2
+The total CPU time: 137.882ms
+memory: 14056KB
+inputs/16000.case3
+The total CPU time: 116.764ms
+memory: 13688KB
+inputs/32000.case1
+The total CPU time: 2.466ms
+memory: 13432KB
+inputs/32000.case2
+The total CPU time: 505.032ms
+memory: 14784KB
+inputs/32000.case3
+The total CPU time: 403.378ms
+memory: 14056KB
+inputs/4000.case1
+The total CPU time: 0.242ms
+memory: 13284KB
+inputs/4000.case2
+The total CPU time: 7.927ms
+memory: 13348KB
+inputs/4000.case3
+The total CPU time: 6.484ms
+memory: 13284KB
+inputs/5.case1
+The total CPU time: 0.035ms
+memory: 13284KB

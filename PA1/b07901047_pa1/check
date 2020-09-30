@@ -9,6 +9,7 @@ INPUTDIR="inputs/"
 OUTPUTDIR="outputs/"
 DATADIR="runtime/$2.time"
 
+ulimit -s 262144 # prevent recursion stack overflow 
 if [ -f $DATADIR ]; then
     echo "Removing $DATADIR ..."
     rm $DATADIR
