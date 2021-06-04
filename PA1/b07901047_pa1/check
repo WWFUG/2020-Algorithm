@@ -24,7 +24,7 @@ for input in $INPUTDIR*.in ; do
     foo=${input#"$INPUTDIR"}
     foo=${foo%".in"}
     bin/NTU_sort -$2 $input "$OUTPUTDIR$foo.out" >> $DATADIR
-    echo "Writing output file ${input%.in}.out ..."
+    echo "Writing output file $OUTPUTDIR$foo.out... "
 
     utility/PA1_Result_Checker $input "$OUTPUTDIR$foo.out"
     echo 
